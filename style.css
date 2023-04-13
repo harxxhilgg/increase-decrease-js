@@ -76,10 +76,13 @@ section h2 {
 
 .second-h2 {
     margin: 3rem;
+    color: greenyellow;
+    font-size: 35px;
 }
 
-#current-value {
-    font-size: 40px;
+#currentValue {
+    user-select: none;
+    font-size: 100px;
     margin-top: 10px;
     color: royalblue;
 }
@@ -88,3 +91,15 @@ section h2 {
     height: 45px;
     border-radius: 5px;
 }
+
+.jsbutton {
+    margin-top: -30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add:hover, #minus:hover, #reset:hover {
+    background-color: blueviolet;
+}
+
