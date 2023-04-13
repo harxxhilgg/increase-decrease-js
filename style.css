@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+    background-color: #24252b;
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a {
+    color: #edf0f1;
+    font-weight: bold;
+}
+
+li, a, button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: red;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px; 
+    background-color: slateblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+
+section {
+    margin-top: 70px;
+}
+
+section h2 {
+    color: snow;
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+}
+
+.second-h2 {
+    margin: 3rem;
+}
+
+#current-value {
+    font-size: 40px;
+    margin-top: 10px;
+    color: royalblue;
+}
+
+.logo {
+    height: 45px;
+    border-radius: 5px;
+}
