@@ -104,3 +104,27 @@ section h2 {
     background-color: blueviolet;
 }
 
+@media screen and (max-width: 900px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive {
+        font-size: 15px;
+        margin: auto; 
+    }
+
+    button {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    header {
+        padding-right: 5%;
+        padding-left: 10%;
+    }
+}
